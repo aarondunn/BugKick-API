@@ -29,6 +29,6 @@ At the moment any API call returns a JSON formatted object containing two proper
 ***success*** - contains boolean value that represents the result of call. 
 It's equal to TRUE if the call was successful, FALSE otherwise.
 
-***error*** - contains the text of error if the api call failed. Otherwise it is equal to NULL.
+***error*** - contains the text of error if the API call failed. Otherwise it is equal to NULL.
 
 If property *success* is equal to FALSE, just look into text of the property *error*.
