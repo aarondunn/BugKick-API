@@ -57,7 +57,7 @@ class BugKick implements BugKickApi {
 	}
 	
 	public function getRequestError() {
-		return $this->requestError();
+		return $this->requestError;
 	}
 	
 	/**
