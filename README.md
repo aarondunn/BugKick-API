@@ -21,7 +21,7 @@ Currently next three types of ticket are supproted:
 
 
 We have created a simple PHP library for you which you can use in your projects. 
-You can download it **[here](https://bugkick.com/BugKick.zip "BugKick API PHP library")**. 
+You can download it **[at the GitHub](https://github.com/BugKick/BugKick-API "BugKick API PHP library")**. 
 The index.php file here containing a simple example of usage of this library.
 
 At the moment any API call returns a JSON formatted object containing two properties:
