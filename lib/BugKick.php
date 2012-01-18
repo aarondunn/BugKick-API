@@ -90,7 +90,7 @@ class BugKick implements BugKickApi {
 	
 	protected function makeCall(array $data) {
 		$reqData=array('apiCall'=>$this->prepareRequestData($data));
-		$ch=curl_init(empty($url) ? self::API_URL : $url);
+		$ch=curl_init(self::API_URL);
 		$this->curlOptions[CURLOPT_POSTFIELDS]=http_build_query($reqData, null, '&');
 		$isSet=curl_setopt_array($ch, $this->curlOptions);
 		$this->requestError=curl_error($ch);
