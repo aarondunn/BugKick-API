@@ -83,7 +83,7 @@ class BugKick implements BugKickApi {
 	protected function prepareRequestData(array $data) {
 		$credentials=array('apiKey'=>$this->apiKey);
 		if(!empty($this->projectID)) {
-			$credentials['projecID']=$this->projectID;
+			$credentials['projectID']=$this->projectID;
 		}
 		return array_merge($data, $credentials);
 	}
