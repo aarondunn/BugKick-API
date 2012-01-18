@@ -8,7 +8,7 @@ with the parameter **apiCall** which should contain next fields:
 
 ***apiKey*** - the secret API key of your company,
 
-***projecID*** - the id of your project for which you are creating the ticket,
+***projectID*** - the id of your project for which you are creating the ticket,
 
 ***ticketText*** - the text of the ticket,
 
